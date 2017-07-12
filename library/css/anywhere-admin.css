@@ -1,0 +1,53 @@
+input.swg_warning:hover {
+	background: #ce0000;
+	color: #fff !important;
+	text-shadow: none;
+}
+
+.postbox h3 span { 
+	color: #aaa;
+	display: none;
+	float: right;
+}
+
+.postbox h3:hover span, span.watchingyou {
+	color: #aaa;
+	display: inline-block;
+	float: right;
+}
+.postbox.warning h3:hover span {
+	display: none !important;
+}
+.postbox.warning h3:hover span.hide {
+	color: #aaa;
+	display: inline-block;
+	float: right;
+}
+#uninstall.postbox h3 span.hide {
+	display: none !important;
+} 
+
+.postbox h3:hover { 
+	cursor: pointer;
+	cursor: n-resize;
+}
+
+a.question, a.addrows {
+	font-weight: bold;
+	text-decoration: none;
+}
+a.question:hover, a.addrows:hover {
+	cursor: pointer;
+}
+textarea {
+	display: block;
+}
+
+.inside .please-add {
+	display: none;
+	visibility: hidden;
+}
+.inside.addAPI .please-add {
+	display: block;
+	visibility: visible;
+}
